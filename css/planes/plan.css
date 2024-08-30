@@ -1,0 +1,63 @@
+.plan {
+    display: flex;
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+    padding: 0.5em,0.5em ;
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.g_plan {
+    display: flex;
+    width: 30%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all(0.2s);
+    margin: 3.5rem;
+}
+
+.g_plan img {
+    max-width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.g_plan:hover {
+    transform: scale(1.2)
+}
+
+.g_plan_ii {
+    width: 45%;
+    height: 100%;
+    margin: 3.5rem;
+}
+
+.t_imp_plan {
+    font-size: 22pt;
+    text-align: center;
+    color: rgb(42, 42, 42);
+    margin-bottom: 12px;
+    margin-top: 5px;
+    transition: all (0.1ms);
+    text-shadow: 0 0 1.6px #2c1b1b;
+}
+
+.t_imp_plan:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 1.6px #cfcce4;
+}
+
+.a__normal {
+    color: rgb(169, 215, 255);
+    font-weight: bold;
+}
+
+.p_p {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
