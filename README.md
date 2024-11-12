@@ -24,6 +24,23 @@ git remote add origin enlace
 git push -u origin main
 ```
 
+SOLUCIÓN PULL REQUEST 
+```
+git checkout rama
+```
+
+```
+git branch main rama -f
+```
+
+```
+git checkout main
+```
+
+```
+git push origin main -f
+```
+
 SOLUCIÓN DE ERRORES MASTER --> MAIN
 
 ```
